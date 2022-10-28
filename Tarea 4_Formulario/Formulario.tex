@@ -1,0 +1,192 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[rmargin=2.5cm, lmargin=2.5cm, tmargin= 3cm, bmargin=3cm]{geometry}
+\usepackage[svgnames,x11names,dvipsnames]{xcolor} 
+\usepackage{graphics}
+\usepackage[rightcaption]{sidecap}
+\usepackage{caption}
+\usepackage{mathrsfs}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{dsfont}
+\usepackage{array}
+\usepackage{amsfonts}
+\usepackage{xcolor}
+\usepackage{latexsym} %permite 
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{multirow}
+
+%---------COLORES--------------------
+\usepackage{graphicx}
+\definecolor{azulito}{RGB}{40, 190, 188}
+\definecolor{r0jo}{RGB}{190, 40, 74}
+\definecolor{v3rd3}{RGB}{83, 190, 40}
+\definecolor{amarill0}{RGB}{190, 183, 40 }
+
+\pagecolor{white} %color a la hoja
+\color{black} %color de letra
+
+%http://latexcolor.com/ 
+%-----------CABECERA-----------------
+\usepackage{fancyhdr}%paqueteria para modificar encabezados
+\pagestyle{headings} %cabecera 
+\pagestyle{fancy} %pone la paqueteria
+    \rfoot{página \thepage}
+    \cfoot{}
+    \lfoot{Méndez González Romina Estephania}
+%---------------------------------
+
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Large{Fórmulas variadas que aportaron demasiado al mundo científico y tecnológico :)}}
+\end{center}
+
+\section{Teoría de conjuntos}
+\begin{itemize}
+    \item [$\clubsuit$] Dado un subconjunto $B$ de $A$, una definición equivalente para la contención de conjuntos se puede expresar como:
+    \begin{equation*}
+        (A - B) \cup B =A
+    \end{equation*}
+    
+    \item [$\clubsuit$] La propiedad asociativa en la unión de conjuntos es una operación binaria que verifica:
+    \begin{equation*}
+        (A \cup B) \cup C = A \cup (B \cup C)
+    \end{equation*}
+    
+    \item [$\clubsuit$] La cardinalidad del conjunto potencia se obtiene con base en la cantidad $n$ de algún conjunto base $\alpha$.
+    \begin{equation*}
+        \# \mathscr{P} (\alpha) = 2^{n}
+    \end{equation*}
+    
+    \item [$\clubsuit$] Dados dos conjuntos $A$ y $B$, se dice que son iguales si su diferencia es conmutativa.
+    \begin{equation*}
+         A - B = B - A 
+    \end{equation*}
+    
+    \item [$\clubsuit$] La ley de De Morgan afirma que la equivalencia entre la negación de una disyunción, es la conjunción entre la negación de cada proposición.
+    \begin{equation*}
+        \textcolor{BrickRed} {(A \cup B)^{c} = B^{c} \cap A^{c}}
+    \end{equation*}
+      
+\end{itemize}
+
+
+
+\section{Física}
+\begin{itemize}
+    \item [$\heartsuit$] La segunda ley de Newton indica un modelo matemático para cuantificar la fuerza resultante debido a su masa y a la aceleración que posee un objeto.
+    \begin{equation*}
+        \sum\limits_{i=k}^{n} \vec{F} = m \vec{a}
+    \end{equation*}
+    
+    \item [$\heartsuit$] El Hamiltoniano de un electrón en un campo electromagnético está dado por:
+    \begin{equation*}
+        H= \frac{1}{2\mu}(\vec{p} + e\vec{A})^2 - eV = -\frac{\hbar^2}{2\mu} \nabla^2 + \frac{e}{2\mu} \vec{B} \cdot \vec{L} + \frac{e^2}{2\mu}A^2- eV
+    \end{equation*}
+    Donde $\mu$ es la masa reducida del sistema. El termino $A^2$ puede despreciarse, excepto para campos fuertes o para movimientos macroscopicos. Para $\vec{B} = B\vec{e}_z$ tenemos $\tfrac{e^2 B^2(x^2 + y^2)}{8\mu}$.
+     
+    \item [$\heartsuit$] Una superposición de varios osciladores armónicos con la misma frecuencia resulta en otra oscilación armónica, donde $\varPsi$ es la amplitud y son de la forma:
+    \begin{equation*}
+        \sum\limits_{i}^{} \hat{\varPsi_i} cos(\alpha_i \pm \omega t) = \hat{\Phi} cos(\beta \pm \omega t)
+    \end{equation*}
+    
+    \item [$\blacksquare$] La fuerza de Lorentz es una fuerza que siente una partícula cargada y que se mueve a través del campo magnético.
+    \begin{equation*}
+        \vec{F}_L = Q(\vec{v} \times \vec{B}) = l(\vec{I} \times \vec{B})
+    \end{equation*}
+     
+    \item [$\heartsuit$] La fórmula gaussiana para los lentes puede deducirse del Principio de Fermat con las aproximaciones $cos(\varphi)= 1$ y $sen(\varphi)= \varphi$. Para la refracción en una superficie esférica de radio R se cumple que:
+    \begin{equation*}
+        \frac{n_1}{v} - \frac{n_2}{b} = \frac{n_1 - n_2}{R}
+    \end{equation*}
+    
+    \item [$\heartsuit$] Para encontrar una órbita planetaria se reemplaza la métrica externa de Schwarzschild, donde $u=\tfrac{1}{r}$ y $h= r^2\varphi=$ constante y $3mu$ puede encontrarse usando $V(r) = -\tfrac{_kM}{r}(1 + \tfrac{h^2}{r^2})$.
+    \begin{equation*}
+        \frac{du}{d\varphi} \left(\frac{d^2 u}{d \varphi^2} + u \right) = \frac{du}{d\varphi} \left(3mu + \frac{m}{h^2}  \right) 
+    \end{equation*}
+    
+    \item [$\blacksquare$] La ley de inducción electromagnética de Faraday establece que la tensión inducida en un circuito cerrado es directamente proporcional a la rapidez con que cambia en el tiempo el flujo magnético que atraviesa una superficie cualquiera con el circuito como borde.
+    \begin{equation*}
+        \textcolor{JungleGreen} {\epsilon = - \frac{d\Phi_B}{dt}= - \frac{d}{dt} \int_{S} \vec{B} \cdot d\vec{S}}
+    \end{equation*}
+    
+    \item [$\heartsuit$] El caudal es la cantidad de fluido que circula por unidad de tiempo en determinado sistema o elemento. Se expresa en la unidad de volumen dividida por la unidad de tiempo. En caso de que la velocidad del flujo sea no constante, el caudal se calcula como:
+    \begin{equation*}
+        Q = \int\int\int_{V} (\nabla \cdot v) dV
+    \end{equation*}
+    
+    \item [$\heartsuit$] El campo eléctrico se representa por medio de un modelo que describe la interacción entre cuerpos y sistemas con propiedades de naturaleza eléctrica. Se puede describir como un campo vectorial en el cual una carga eléctrica puntual de valor $q$ sufre los efectos de una fuerza eléctrica dada por $F$.
+    \begin{equation*}
+        \vec{E} = \frac{1}{4\pi \epsilon_0} \left(\frac{Q}{r^2} \hat{r}\right)
+    \end{equation*}
+    
+    \item [$\blacksquare$] La aceleración de un determinado objeto que presenta un movimiento armónico simple se expresa como:
+    \begin{equation*}
+        a= \ddot{x}(t) = -A\omega^2 cos(\omega t + \phi)
+    \end{equation*}
+    
+    \item [$\heartsuit$] El trabajo efectuado por una fuerza que actúa sobre un objeto en movimiento con trayectoria curvilinea está definido mediante una integral de línea:
+    \begin{equation*}
+        \vec{W} = \int_{c} \vec{F} \cdot d\vec{r}
+    \end{equation*}
+    
+    \item [$\heartsuit$] La ley de gravitación universal describe la fuerza o interacción gravitatoria entre distintos cuerpos con masa. Predice que la fuerza ejercida entre dos cuerpos de masas  $m_{1}$  y  $m_{2}$ separados a una distancia $r$ es igual al producto de sus masas e inversamente proporcional al cuadrado de la distancia, es decir:
+    \begin{equation*}
+        \vec{F} = -G \frac{m_1 m_2}{r^2} \hat{r}
+    \end{equation*}
+    
+    \item [$\blacksquare$] La fricción estática es aquella fuerza de oposición que presenta la superficie antes de que un objeto se comience a mover. Se define con la desigualdad:
+    \begin{equation*}
+        f_s \leq \mu_s N
+    \end{equation*}
+    
+    \item [$\heartsuit$] La fricción dinámica es aquella fuerza de oposición que presenta la superficie después de que un objeto se comience a mover. Se define con la igualdad:
+    \begin{equation*}
+        f_k = \mu_k N
+    \end{equation*}
+    
+    \item [$\heartsuit$] La única ecuación que describe al Movimiento Rectilíneo Uniforme es la que describe la posición de un objeto a través del tiempo.
+    \begin{equation*}
+        x(t)= vt + x_0
+    \end{equation*}
+    
+\end{itemize}
+    
+    
+\section{Cálculo}
+\begin{itemize}
+    \item [$\bigstar$] El teorema del Binomio de Newton nos permite conocer los términos de un binomio mediante la suma de términos que implican un coeficiente binomial.
+    \begin{equation*}
+        \textcolor{RubineRed} {(x+y)^n = \sum\limits_{j=0}^{n} \binom{n}{j} x^j y^{n-j} }
+    \end{equation*}
+    
+     \item [$\blacklozenge$] Una función $f$ es par si para todos los elementos de su dominio se verifica ser simétrico respecto al cero. Es decir:
+     \begin{equation*}
+        f(x) =f(-x)
+    \end{equation*}
+    
+    \item [$\bigstar$] Una función $f$ es impar si para todos los elementos de su dominio se verifica que:
+    \begin{equation*}
+        -f(x) =f(-x)
+    \end{equation*}
+    
+    \item [$\blacklozenge$] Una forma de definir al ínf(A) de un conjunto A,  es mediante el negativo del supremo del conjunto $-A$ tal que tenga como elementos a los inversos aditivos de A. Es decir:
+    \begin{center}
+        ínf(A) = -sup(-A)
+    \end{center}
+    
+    
+    \item [$\bigstar$] Si $A,B \subseteq \mathbb{R}$ no vacíos, tales que $A\subseteq B$ y $B$ es acotado, entonces se cumple la siguiente relación entre sus ínfimos y sus supremos:
+    \begin{center}
+        ínf(B) $\leq$ ínf(A) $\leq$  sup(A) $\leq$  sup(B)  
+    \end{center}
+    
+\end{itemize}
+   
+\end{document}
